@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .desaparece {
+            opacity: 0%;
+        }
+
+        .boton2 {
+            opacity: 0%;
+        }
+
+        .aparece {
+            opacity: 100%;
+        }
+
+    </style>
+
+    <script>
+        function cambio(){
+            document.getElementById('boton').className='desaparece';
+            document.getElementById('boton2').className='aparece';
+        }
+       
+    </script>
+
+</head>
+
+<body>
+   
+        <button onclick="cambio()" id="boton">Boton</button>
+        <br>
+        <br>
+        <button id="boton2" class="boton2">Boton2</button>
+
+</body>
+</html>
